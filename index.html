@@ -558,9 +558,7 @@
             // Reset to default with smooth animation
             alphaBtn.style.transform = 'perspective(500px) rotateY(0deg) rotateX(0deg) scale(1)';
         });
-elements.forEach((el, index) => {
-    el.style.transitionDelay = `${index * 0.1}s`;
-});
+
 
         /* 2. Navigation Link Smooth Scroll & Active States via Intersection Observer */
         const sections = document.querySelectorAll('section');
